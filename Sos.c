@@ -1,6 +1,6 @@
 #include "pico/stdlib.h"
 
-#define LED_PIN_BLUE 12
+#define LED_PIN_BLUE 13
 void acender_led(int tempo_ms) {
     gpio_put(LED_PIN_BLUE, 1); 
     sleep_ms(tempo_ms);

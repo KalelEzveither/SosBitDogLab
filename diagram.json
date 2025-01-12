@@ -29,7 +29,7 @@
     "connections": [
       [ "led1:C", "r1:1", "blue", [ "v0" ] ],
       [ "pico:GND.4", "r1:2", "black", [ "h0" ] ],
-      [ "pico:GP13", "led1:A", "green", [ "h0" ] ]
+      [ "pico:GP12", "led1:A", "green", [ "h0" ] ]
     ],
     "dependencies": {}
   }
